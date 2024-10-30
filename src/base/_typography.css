@@ -1,0 +1,10 @@
+:root {
+	--font-size-xs: calc(var(--font-size-s) / var(--PHI));
+	--font-size-s: calc(var(--font-size-r) / var(--PHI));
+	--font-size-r: 16pt;
+	--font-size-l: calc(var(--font-size-r) * var(--PHI));
+	--font-size-xl: calc(var(--font-size-l) * var(--PHI));
+	--font-size-xxl: calc(var(--font-size-xl) * var(--PHI));
+	--font-family-primary: 'Inter', system-ui, -apple-system, BlinkMacSystemFont,
+		'Arial', sans-serif;
+}
