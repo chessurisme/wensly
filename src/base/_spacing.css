@@ -1,0 +1,8 @@
+:root {
+	--spacing-xs: calc(var(--spacing-s) / var(--PHI));
+	--spacing-s: calc(var(--spacing-r) / var(--PHI));
+	--spacing-r: calc(var(--font-size-r) / var(--PHI));
+	--spacing-l: calc(var(--spacing-r) * var(--PHI));
+	--spacing-xl: calc(var(--spacing-l) * var(--PHI));
+	--spacing-xxl: calc(var(--spacing-xl) * var(--PHI));
+}
