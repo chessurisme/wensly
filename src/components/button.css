@@ -1,0 +1,80 @@
+/** General (and Primary) */
+[data-wences='button'] {
+	/* Layout */
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+
+	/* Design */
+	border: transparent 0 solid;
+	border-radius: calc(var(--font-size-r) / var(--PHI));
+	background-color: var(--honey-500);
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	*:not(p) {
+		padding-top: var(--spacing-s);
+		padding-left: var(--spacing-r);
+		padding-bottom: var(--spacing-s);
+		padding-right: var(--spacing-r);
+	}
+
+	p {
+		padding-right: var(--spacing-r);
+
+		/* Typography */
+		font-weight: 600;
+	}
+}
+
+[data-wences='button']:hover {
+	/* Design */
+	background-color: var(--honey-600);
+}
+
+[data-wences='button']:active {
+	/* Design */
+	background-color: var(--honey-500);
+}
+
+/** Secondary */
+[data-wences='button'].wences-button-secondary {
+	/* Design */
+	background-color: var(--honey-300);
+}
+
+[data-wences='button'].wences-button-secondary:hover {
+	/* Design */
+	background-color: var(--honey-400);
+}
+
+[data-wences='button'].wences-button-secondary:active {
+	/* Design */
+	background-color: var(--honey-300);
+}
+
+/** Tertiary */
+[data-wences='button'].wences-button-tertiary {
+	/* Design */
+	border: 3px solid var(--honey-500);
+	background-color: transparent;
+}
+
+[data-wences='button'].wences-button-tertiary:hover {
+	/* Design */
+	border: 3px solid var(--honey-600);
+	background-color: var(--honey-100);
+}
+
+[data-wences='button'].wences-button-tertiary:active {
+	/* Design */
+	border: 3px solid var(--honey-500);
+	background-color: transparent;
+}
